@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'Oru group', url="https://t.me/Cinemafactory1"
                                 )
                         ]
                     ]
@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = @MalRok",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
